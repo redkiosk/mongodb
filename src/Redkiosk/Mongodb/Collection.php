@@ -1,4 +1,4 @@
-<?php namespace Jenssegers\Mongodb;
+<?php namespace Redkiosk\Mongodb;
 
 use Exception;
 use MongoCollection;

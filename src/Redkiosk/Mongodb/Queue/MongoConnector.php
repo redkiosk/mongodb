@@ -1,4 +1,4 @@
-<?php namespace Jenssegers\Mongodb\Queue;
+<?php namespace Redkiosk\Mongodb\Queue;
 
 use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Queue\Connectors\ConnectorInterface;

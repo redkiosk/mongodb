@@ -1,4 +1,4 @@
-<?php namespace Jenssegers\Mongodb\Query;
+<?php namespace Redkiosk\Mongodb\Query;
 
 use Illuminate\Database\Query\Grammars\Grammar as BaseGrammar;
 

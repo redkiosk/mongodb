@@ -1,4 +1,4 @@
-<?php namespace Jenssegers\Mongodb\Auth;
+<?php namespace Redkiosk\Mongodb\Auth;
 
 use Illuminate\Auth\Passwords\PasswordBrokerManager as BasePasswordBrokerManager;
 

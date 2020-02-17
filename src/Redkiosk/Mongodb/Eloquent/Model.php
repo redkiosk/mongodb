@@ -1,13 +1,13 @@
-<?php namespace Jenssegers\Mongodb\Eloquent;
+<?php namespace Redkiosk\Mongodb\Eloquent;
 
 use Carbon\Carbon;
 use DateTime;
 use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use Jenssegers\Mongodb\Query\Builder as QueryBuilder;
-use Jenssegers\Mongodb\Relations\EmbedsMany;
-use Jenssegers\Mongodb\Relations\EmbedsOne;
-use Jenssegers\Mongodb\Relations\EmbedsOneOrMany;
+use Redkiosk\Mongodb\Query\Builder as QueryBuilder;
+use Redkiosk\Mongodb\Relations\EmbedsMany;
+use Redkiosk\Mongodb\Relations\EmbedsOne;
+use Redkiosk\Mongodb\Relations\EmbedsOneOrMany;
 use MongoDate;
 use MongoId;
 use ReflectionMethod;
@@ -77,7 +77,7 @@ abstract class Model extends BaseModel
      * @param  string  $localKey
      * @param  string  $foreignKey
      * @param  string  $relation
-     * @return \Jenssegers\Mongodb\Relations\EmbedsMany
+     * @return \Redkiosk\Mongodb\Relations\EmbedsMany
      */
     protected function embedsMany($related, $localKey = null, $foreignKey = null, $relation = null)
     {
@@ -112,7 +112,7 @@ abstract class Model extends BaseModel
      * @param  string  $localKey
      * @param  string  $foreignKey
      * @param  string  $relation
-     * @return \Jenssegers\Mongodb\Relations\EmbedsOne
+     * @return \Redkiosk\Mongodb\Relations\EmbedsOne
      */
     protected function embedsOne($related, $localKey = null, $foreignKey = null, $relation = null)
     {
@@ -506,8 +506,8 @@ abstract class Model extends BaseModel
     /**
      * Create a new Eloquent query builder for the model.
      *
-     * @param  \Jenssegers\Mongodb\Query\Builder $query
-     * @return \Jenssegers\Mongodb\Eloquent\Builder|static
+     * @param  \Redkiosk\Mongodb\Query\Builder $query
+     * @return \Redkiosk\Mongodb\Eloquent\Builder|static
      */
     public function newEloquentBuilder($query)
     {

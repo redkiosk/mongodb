@@ -1,4 +1,4 @@
-<?php namespace Jenssegers\Mongodb\Auth;
+<?php namespace Redkiosk\Mongodb\Auth;
 
 use DateTime;
 use Illuminate\Auth\Passwords\DatabaseTokenRepository as BaseDatabaseTokenRepository;

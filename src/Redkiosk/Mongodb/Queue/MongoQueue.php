@@ -1,4 +1,4 @@
-<?php namespace Jenssegers\Mongodb\Queue;
+<?php namespace Redkiosk\Mongodb\Queue;
 
 use Carbon\Carbon;
 use Illuminate\Queue\DatabaseQueue;

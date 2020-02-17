@@ -1,6 +1,6 @@
-<?php namespace Jenssegers\Mongodb;
+<?php namespace Redkiosk\Mongodb;
 
-use Jenssegers\Mongodb\Eloquent\Model as BaseModel;
+use Redkiosk\Mongodb\Eloquent\Model as BaseModel;
 
 abstract class Model extends BaseModel
 {

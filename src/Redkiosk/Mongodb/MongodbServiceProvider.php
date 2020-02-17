@@ -1,7 +1,7 @@
-<?php namespace Jenssegers\Mongodb;
+<?php namespace Redkiosk\Mongodb;
 
 use Illuminate\Support\ServiceProvider;
-use Jenssegers\Mongodb\Queue\MongoConnector;
+use Redkiosk\Mongodb\Queue\MongoConnector;
 
 class MongodbServiceProvider extends ServiceProvider
 {

@@ -1,6 +1,6 @@
-<?php namespace Jenssegers\Eloquent;
+<?php namespace Redkiosk\Eloquent;
 
-use Jenssegers\Mongodb\Eloquent\HybridRelations;
+use Redkiosk\Mongodb\Eloquent\HybridRelations;
 
 abstract class Model extends \Illuminate\Database\Eloquent\Model
 {
