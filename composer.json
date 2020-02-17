@@ -24,8 +24,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Jenssegers\\Mongodb": "src/",
-            "Jenssegers\\Eloquent": "src/"
+            "Redkiosk\\Mongodb": "src/",
+            "Redkiosk\\Eloquent": "src/"
         }
     },
     "autoload-dev": {
